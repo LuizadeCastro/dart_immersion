@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Imersão de estudos em Flutter
+
+Variáveis, parâmetros, gerenciamento de estado, design patterns and more :)
