@@ -1,8 +1,2 @@
-# Dart-Immersion
-Immersion of studies in Dart/Flutter, from the basics, with 'Academia do Flutter Brasil'
-
-// Imersão de estudos em Flutter
-
-Variáveis, Parâmetros, Null Safety, Interfaces, Widgets, Gerenciamento de estado, Patterns and more :)
-
-
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
