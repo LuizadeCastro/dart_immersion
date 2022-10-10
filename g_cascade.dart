@@ -1,9 +1,11 @@
-void main(List<String> args) {
-  var camiseta = Camiseta('Gucci');
-  camiseta.cor = "branca";
-  camiseta.tamanho = 'P';
-  camiseta.marca = 'Gucci';
-  camiseta.modelo = 'babylook';
+void main() {
+  // .. retorna e atribui, economiza código
+
+  var camiseta = Camiseta()
+    ..cor = "branca"
+    ..tamanho = 'P'
+    ..marca = 'Gucci'
+    ..modelo = 'babylook';
 
   print('A cor da camiseta da ${camiseta.marca} é ${camiseta.cor}');
 
@@ -13,14 +15,15 @@ void main(List<String> args) {
 
 class Camiseta {
   // características
+
   String? cor;
   String? tamanho;
   String? marca;
   String? modelo;
 
   //construtores
-  Camiseta(String? marca) : this.marca = marca;
-  // ou Camiseta(this.marca);
+
+  // comportamentos
 
   String tipoDeLavagem() {
     if (marca == "Gucci") {

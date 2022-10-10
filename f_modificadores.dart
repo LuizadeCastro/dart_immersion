@@ -8,7 +8,6 @@ void main() {
 
 class Camiseta {
   // características
-
   String? cor;
   String? tamanho;
   String _marca;
@@ -18,7 +17,6 @@ class Camiseta {
   Camiseta(this._marca);
 
   // comportamentos
-
   String tipoDeLavagem() {
     if (_marca == "Gucci") {
       return 'Lavar na máquina';

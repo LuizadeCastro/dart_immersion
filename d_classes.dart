@@ -6,6 +6,9 @@ void main() {
   camiseta.modelo = 'babylook';
 
   print('A cor da camiseta da ${camiseta.marca} é ${camiseta.cor}');
+
+  print(
+      'O tipo de lavagem da camiseta da ${camiseta.marca} é ${camiseta.tipoDeLavagem()} ');
 }
 
 class Camiseta {
@@ -20,4 +23,11 @@ class Camiseta {
 
   // comportamentos
 
+  String tipoDeLavagem() {
+    if (marca == "Gucci") {
+      return 'Lavar na máquina';
+    } else {
+      return 'Não lavar na máquina';
+    }
+  }
 }
